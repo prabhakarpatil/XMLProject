@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/AdressSchema" xmlns:tns="http://www.example.org/AdressSchema" elementFormDefault="qualified">
+
+
+    <element name="Address" type="tns:Address"></element>
+    
+
+    <complexType name="Address">
+    	<sequence>
+    		<element name="streetAddress" type="string"></element>
+    		<element name="billingAddress" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>
